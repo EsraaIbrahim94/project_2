@@ -1,0 +1,111 @@
+/* backgourd header */
+html{
+    overflow: auto;
+}
+.header{
+    background-image: url(../imagse/web.jpg);
+    width: 1350px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding: 190px 270px;
+}
+
+h1 span {
+    color: tomato;
+}
+
+/* backgourd header2 */
+.header2 {
+    width: 1345px;
+    height: 145px;
+    background-color: tomato;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* menu bar */
+.bar{
+    background-color:#555;
+    width: 1350;
+    height: 50px;
+    margin-top: -20px;
+}
+
+.bar h2 {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-top: 9px;
+}
+
+/* list */
+.bar ul {
+    text-align: right;
+    margin-top: -45px;
+    padding-right: 20px;
+    word-spacing: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bar ul li{
+    display: inline-block;
+}
+
+.bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* photos */
+.image {
+    /* background-color: #fff; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align:left;
+    margin-top: 20px;
+}
+.image .i img {
+    width: 350px;
+    height: 200px;
+    margin: 40px;
+    border: 4px solid #fff;
+    outline: 2px solid #ccc;
+}
+
+.image .f img{
+    width: 350px;
+    height: 200px;
+    margin: 40px;
+    border: 4px solid #fff;
+    outline: 2px solid #ccc;
+}
+
+.image .g img {
+    width: 350px;
+    height: 200px;
+    margin: 40px;
+    float:right;
+    border: 4px solid #fff;
+    outline: 2px solid #ccc;
+}
+
+/* bottom */
+.bottom {
+    text-align: center;
+    color: tomato;
+    font-weight: normal;
+}
+.bottom a{
+    text-decoration: none;
+    color: #000;
+}
